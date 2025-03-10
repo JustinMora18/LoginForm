@@ -11,48 +11,70 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="background">
-
-        <!-- Nav bar -->
+        <!-- Nav bar
         <nav class="nav_bar"> 
-            <ul class="nav_links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Help</a></li>
-            </ul>
-        </nav>
+            <div class="wrapper">
+                <ul class="nav_links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+        </nav> -->
 
         <!-- Box with welcomee, login form, logo/name -->
-        <div class="Wrapper"> 
-            <h1> DevSite </h1>
-            <h2> Welcome! dev</h2>
-            <form> 
-                <h2> Login </h2> 
-                <div class="input_box">
-                    <input type="text" placeholder="Username" required>
-                    <i class='bx bxs-user' ></i>
+        <div class="container"> 
+            <div class="info">
+                <div class="main-title">
+                    <h2> DevSite \> </h2>
                 </div>
-                <div class="input_box">
-                    <input type="password" placeholder="Password" required>
-                    <i class='bx bxs-lock-alt'></i>
+                <div class="main-msg">
+                    <h2>Hey! 👋</h2>
+                    <h3>Welcome Back dev</h2>
+                    <img src="assets/imgs/IMG_3324.WEBP"> 
                 </div>
+            </div>
+            
+            <div class="form-box">
+                <form> 
+                    <h1> Login </h1> 
+                    
+                    <div class="input_box">
+                        <input type="text" placeholder="Username" required>
+                        <i class='bx bxs-user' ></i>
+                    </div>
+                    <div class="input_box">
+                        <input type="password" placeholder="Password" required>
+                        <i class='bx bxs-lock-alt'></i>
+                    </div>
 
-                <div class="remb-forg">
-                    <label>
-                        <input type="checkbox"> Remember me
-                    </label>
-                    <a href="#">Forget Password?</a>
-                </div>
+                    <div class="forgot_passw">
+                        <a href="#">Forget Password?</a>
+                    </div>
 
-                <button type="submit" class="btn">Login</button>
-
-                <div class="To_register">
-                    <p>Don't Have An Account Yet? <a href="#">Sign-up Here!</a></p>
-                </div>
-            </form>
+                    <button type="submit" class="btn">Login</button>
+                    <p>Login With Social Plataforms</p>
+                    
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class='bx bxl-instagram-alt' ></i>
+                        </a>
+                        <a href="#">            
+                            <i class='bx bxl-facebook-square' ></i>
+                        </a>
+                        <a href="#">
+                            <i class='bx bxl-github' ></i>
+                        </a>
+                        <a href="#">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
         </div>
-
-    </div>
+        <!-- <div class="to_register">
+            <p>Don't Have An Account Yet? <a href="#">Sign-up Here!</a></p>
+        </div> -->
 </body>
 </html>
